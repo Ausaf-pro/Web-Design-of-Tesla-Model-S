@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style-type: none;
+}
+
+body {
+   background-image: url(images/RHD_model-s_hero@2x.jpg) ;
+}
+
+.nav {
+   color: #fff;
+   display: flex;
+   flex: 1;
+   padding: 40px;
+   padding-top: 10px;
+   justify-content: space-between;
+   align-items: center;
+}
+.unOrdered {
+   display: flex;
+}
+
+.unOrdered li {
+   margin-right: 30px;
+   padding: 10px;
+   font-size: 1.22rem;
+   cursor: pointer;
+   color:#000000;
+   font-family: 'Saira', sans-serif;
+   font-weight: 500;
+}
+
+.logo {
+   width: 150px;
+   font-family: 'Satisfy', cursive;
+   color: black;
+   cursor: pointer;
+}
+
+.portfolio {
+   position: absolute;
+   top: 170px;
+   left: 850px;
+}
+
+.portfolioHeading {
+   font-size: 60px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.portfolioPara {
+   font-size: 24px;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(148, 143, 143);
+}
+
+.button-section {
+   position: absolute;
+   bottom: 100px;
+   right: 550px;
+}
+
+.customOrder, .existingInventory {
+   padding: 15px 110px 15px 110px;
+   margin-right: 40px;
+   border-radius: 30px;
+   font-size: 1.1rem;
+   color: #fff;
+   font-family: 'Red Hat Text', sans-serif;
+   cursor: pointer;
+   border: none;
+}
+
+.customOrder {
+   color: black;
+   transition: .5s;
+}
+
+.customOrder:hover {
+   color: #fff;
+   background-color: rgb(71, 69, 69);
+}
+
+.existingInventory {
+   color: black;
+   transition: .5s;
+}
+
+.existingInventory:hover {
+   color: #fff;
+   background-color: rgb(71, 69, 69);
+}
